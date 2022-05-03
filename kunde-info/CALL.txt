@@ -1,0 +1,2 @@
+
+source kunde-info/KUNDEN-DATEN.sql

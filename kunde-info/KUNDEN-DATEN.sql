@@ -1,0 +1,30 @@
+SHOW DATABASES;
+
+DROP DATABASE IF EXISTS kunde;
+
+CREATE DATABASE IF NOT EXISTS kunde;
+
+SHOW DATABASES;
+
+USE kunde;
+
+CREATE TABLE IF NOT EXISTS test1
+(
+name VARCHAR(20) NOT NULL DEFAULT "TBA",
+    age INT NOT NULL DEFAULT 0
+);
+SHOW TABLES;
+
+DESCRIBE test1;
+
+INSERT INTO test1(name,age) VALUES ("Thanaa",20);
+INSERT INTO test1(name,age) VALUES ("Alma",21);
+INSERT INTO test1(name,age) VALUES ("Mohannad",22);
+INSERT INTO test1(name,age) VALUES ("David",23);
+INSERT INTO test1(name,age) VALUES ("Maria",24);
+INSERT INTO test1(name,age) VALUES ("Ilgi",25);
+INSERT INTO test1(name,age) VALUES ("Atanas",26);
+INSERT INTO test1 VALUES ();
+
+SHOW TABLES;
+SELECT * FROM test1;
