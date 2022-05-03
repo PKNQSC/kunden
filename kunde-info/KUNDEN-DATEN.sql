@@ -17,7 +17,7 @@ SHOW TABLES;
 
 DESCRIBE test1;
 
-INSERT INTO test1(name,age) VALUES ("Thanaa",20);
+INSERT INTO test1(name,age) VALUES ("Thanaa",15);
 INSERT INTO test1(name,age) VALUES ("Alma",21);
 INSERT INTO test1(name,age) VALUES ("Mohannad",22);
 INSERT INTO test1(name,age) VALUES ("David",23);
